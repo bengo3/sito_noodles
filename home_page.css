@@ -1,0 +1,325 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#immagine_titolo img {
+    background-repeat: no-repeat;
+    width: 940px;
+    height: 225px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5%;
+    border: 1px solid black;
+    border-radius: 12px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.4);
+}
+
+#copyright {
+    position: absolute;
+    top: 260%;
+    left: 0.6%;
+    font-size: 14px;
+}
+
+#grey_left img{
+    position: absolute;
+    width: 180px;
+    height: 1930px;
+    left: 2%;
+    top: 5%;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#grey_right img{
+    position: absolute;
+    width: 180px;
+    height: 1930px;
+    top: 5%;
+    left: 85%;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#grey_bar_center img{
+    position: absolute;
+    width: 940px;
+    height: 50px;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid black;
+    border-radius: 8px;
+}
+/*bottoni in alto */
+.botton {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    z-index: 1;
+    font-size: 16px;
+    position: absolute;
+    top: 40.92%;
+}
+.botton:hover {
+    background-color: rgb(234, 235, 235)
+}
+.botton1 {
+    left: 22%;
+    padding: 10px 35px;
+}
+.botton2 {
+    left: 34%;
+    padding: 10px 36px;
+}
+.botton3 {
+    left: 46%;
+    padding: 10px 30px;
+}
+.botton4 {
+padding: 10px 25px;
+left: 58.5%;
+
+}
+.botton5 {
+    padding: 10px 40px;
+    left: 70%;
+}
+
+/* Stili per la barra di ricerca */
+.search-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 999;
+    top: 46.9%;
+    left: 37%;
+    
+    
+}
+
+#search-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    font-size: 16px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#search-results {
+    margin-top: 20px;
+}
+
+#search-results {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 2px ;
+    position: relative;
+    left: 37.1%;
+    top: 45%;
+    width: 365px;
+    border-radius: 8px;
+}
+#search-results p {
+    margin-bottom: 1px;
+    margin-top: 4px;
+    padding: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    position: relative;
+    z-index: 999;
+}
+
+/*immagine on sale */
+#foto_offerte img {
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 940px;
+    height: 420px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 58.5%;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+/*bottone on sale nella foto */
+#pulsante_offerte {
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    z-index: 10;
+    padding: 5px 42px;
+    background-color: #ffffff;
+    font-size: 20px;
+    left: 66.5%;
+    top: 93.7%;
+    border: 2px solid rgba(3, 3, 3, 0.1);
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+#pulsante_offerte:hover {
+    background-color: #dddddd;
+}
+/*scritta what... */
+#what_like {
+    position: absolute;
+    top: 110%;
+    left: 16.5%;
+    font-size: 34px;
+    font-style: italic;
+}
+
+/*pulsanti what... */
+.pulsante {
+    display: inline-block;
+    position: absolute;
+    top: 127%;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 2px solid rgba(3, 3, 3, 0.1);
+}
+.pulsante:hover {
+    background-color: #dddddd;
+}
+.pulsante2 {
+    left: 16%;
+    padding: 2px 40px;
+}
+.pulsante1 {
+    left: 27%;
+    padding: 2px 24px;
+}
+.pulsante3 {
+    left: 38.3%;
+    padding: 2px 45px;
+}
+.pulsante4 {
+    left: 49.6%;
+    padding: 2px 37px;
+}
+.pulsante5 {
+    left: 61.3%;
+    padding: 2px 37px;
+}
+.pulsante6 {
+    left: 73%;
+    padding: 2px 40px;
+}
+
+/* new product*/
+#new_products {
+    position: absolute;
+    z-index: 10;
+    font-size: 34px;
+    font-style: italic;
+    left: 16.5%;
+    top: 130%;
+}
+.pulsante_novità {
+    padding: 2px 30px;
+    top: 140%;
+    left: 72%;
+    font-size: 20px;
+}
+
+.novità img {
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 10;
+    width: 190px;
+    height: 190px;
+    border: 1px solid rgb(128, 118, 118);
+    background-color: white;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 25px;
+    padding-bottom: 90px;
+    border-radius: 15px;
+    top: 150%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+.novità:hover img {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.prodotto1 img {
+    left: 16%;
+}
+.prodotto2 img {
+    left: 33.3%;
+}
+.prodotto3 img {
+    left: 50.6%;
+}
+.prodotto4 img {
+    left: 68%;
+}
+.prodotto_testo {
+    position: absolute;
+    font-size: 15px;
+    top: 177.4%;
+    z-index: 11;
+}
+.testo3 {
+    left: 52.5%;
+}
+.testo2 {
+    left: 35.1%;
+}
+.testo4 {
+    left: 70%;
+}
+.testo1 {
+    left: 17.6%;
+}
+
+/* shop fondo sito */
+#shop_bottom {
+    position: absolute;
+    display: inline-block;
+    padding: 2px 40px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    z-index: 11;
+    border-radius: 20px;
+    top: 223%;
+    left: 20%;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+#shop_bottom:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#shop_bottom_img img {
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 740px;
+    height: 420px;
+    top: 198%;
+    left: 31%;
+    border: 1px solid rgb(116, 116, 116);
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
